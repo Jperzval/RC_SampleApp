@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">RC_SampleApp</string>
-    <string name="text_view_title">Title</string>
-    <string name="text_view_fact1">Fact 1: %1$s</string>
-    <string name="text_view_fact2">Fact 2: %1$s</string>
+    <string name="text_view_title_text">Title</string>
+    <string name="text_view_fact1_text">Fact 1: %1$s</string>
+    <string name="text_view_fact2_text">Fact 2: %1$s</string>
     <string name="text_view_main_text">Main Text</string>
 </resources>

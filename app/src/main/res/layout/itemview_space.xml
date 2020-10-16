@@ -15,21 +15,21 @@
             android:id="@+id/text_view_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_view_title"
+            android:text="@string/text_view_title_text"
             android:textSize="@dimen/sp_size_40" />
 
         <TextView
             android:id="@+id/text_view_fact_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_view_fact1"
+            android:text="@string/text_view_fact1_text"
             android:textSize="@dimen/sp_size_20"/>
 
         <TextView
             android:id="@+id/text_view_fact_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_view_fact2"
+            android:text="@string/text_view_fact2_text"
             android:textSize="@dimen/sp_size_20"/>
 
         <TextView

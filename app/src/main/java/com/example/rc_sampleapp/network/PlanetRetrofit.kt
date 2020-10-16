@@ -7,7 +7,7 @@ object PlanetRetrofit {
 
     private const val BASE_URL = "https://raw.githubusercontent.com"
 
-    private fun retrofit(): Retrofit {
+    fun getRetrofitInstance(): Retrofit {
         return Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
             .baseUrl(BASE_URL)
