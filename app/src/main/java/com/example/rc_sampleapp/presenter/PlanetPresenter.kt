@@ -32,9 +32,8 @@ class PlanetPresenter(private var planetView: MainContract.View?, private var ap
                     }
 
                     override fun onFailure(call: Call<PlanetWrapper>?, t: Throwable?) {
-
+                        planetView?.showError()
                     }
-
                 })
         }
     }
