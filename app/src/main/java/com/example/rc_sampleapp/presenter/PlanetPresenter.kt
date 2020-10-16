@@ -22,13 +22,13 @@ class PlanetPresenter(private var planetView: MainContract.View?, private var ap
                         call: Call<PlanetWrapper>?,
                         response: Response<PlanetWrapper>?
                     ) {
-                        val res = ArrayList<Planets>()
-                        val result = response?.body()?.solarSystem
+                        val planetList = ArrayList<Planets>()
+                        val result: List<Planets>? = response?.body()?.solarSystem
                         for (i in 0 until result?.size!!) {
-                            val list = result[0]
-                            res.add(list)
+                            val list:Planets = result[0]
+                            planetList.add(list)
                         }
-                        planetView?.showPlanetInfo(res)
+                        planetView?.showPlanetInfo(planetList)
                     }
 
                     override fun onFailure(call: Call<PlanetWrapper>?, t: Throwable?) {
